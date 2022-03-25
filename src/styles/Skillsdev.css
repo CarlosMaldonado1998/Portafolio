@@ -1,0 +1,39 @@
+.container.skillsdevs_container {
+  width: 50%;
+
+  padding-bottom: 2rem;
+  margin-top: 1rem;
+  background-color: var(--color-bg-variant);
+  border-radius: 2rem;
+  padding-top: 2rem;
+}
+
+.logo {
+  width: 4rem;
+  height: 6rem;
+  overflow: hidden;
+  object-fit: fill;
+  margin: 0 auto;
+}
+
+.skillsdev {
+  text-align: center;
+  padding: 1rem;
+  user-select: none;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background: var(--color-primary);
+}
+
+@media screen and (max-width: 1024px) {
+  .container.skillsdevs_container {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container.skillsdevs_container {
+    width: var(--container-width-sm);
+  }
+}
