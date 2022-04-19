@@ -18,22 +18,6 @@ header {
     justify-content: center;
 }
 
-.header_socials{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.8rem;
-    position: absolute;
-    left: 0;
-    bottom: 3rem;
-}
-
-.header_socials::after {
-    content: '';
-    width: 1px;
-    height: 2rem;
-    background: var(---color-primary);
-}
 
 .me {
     background: linear-gradient(var(--color-primary), transparent);
@@ -47,15 +31,6 @@ header {
     margin: 1rem;
 }
 
-.scroll_down {
-    position: absolute;
-    right: -2.3rem;
-    bottom: 5rem;
-    transform: rotate(90deg);
-    font-weight: 300;
-    font-size: 0.9rem;
-}
-
 @media screen and (max-width: 1024px) {
     header {
         height: 100vh;
@@ -65,10 +40,6 @@ header {
   @media screen and (max-width: 600px) {
     header {
         height: 100vh;
-    }
-
-    .header_socials, .scroll__down {
-        display: none;
     }
   }
   

@@ -26,6 +26,10 @@
     margin: 1.2rem 0 2rem;
 }
 
+.portfolio_image {
+    width: 100%;
+    height: 100%;
+}
 .portfolio_item-cta {
     display: flex;
     gap: 2rem;

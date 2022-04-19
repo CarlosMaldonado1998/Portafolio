@@ -50,6 +50,7 @@ const Nav = () => {
           >
             Portafolio
           </a>
+
           <a
             href="#about"
             onClick={() => setActiveNav("#about")}
