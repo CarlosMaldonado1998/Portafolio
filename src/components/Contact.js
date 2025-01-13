@@ -9,7 +9,7 @@ const Contact = () => {
       <h5>Medios de comunicación</h5>
       <h2>Contáctame</h2>
 
-      <div className="container contact_container">
+      <div className="container ">
         <div className="contact_options">
           <article className="contact_option">
             <MdOutlineMail className="contact_option-icon" />
