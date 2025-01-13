@@ -11,6 +11,10 @@ import IONIC from "../images/ionic.png";
 import LARAVEL from "../images/laravel.png";
 import MYSQL from "../images/mysql.png";
 import FIREBASE from "../images/firebase.png";
+import NEST from "../images/Nestjs.png";
+import SPRING from "../images/springboot.png";
+import POSTEGRES from "../images/postgresql.png";
+
 import "../styles/Skillsdev.css";
 import { Pagination } from "swiper";
 import { SwiperSlide, Swiper } from "swiper/react";
@@ -20,28 +24,29 @@ import "swiper/css/pagination";
 
 const dataFronted = [
   {
-    avatar: HTML,
-    name: "HTML",
-  },
-  {
-    avatar: CSS,
-    name: "CSS ",
-  },
-  {
-    avatar: JAVASCRIPT,
-    name: "JavaScript",
-  },
-  {
-    avatar: GIT,
-    name: "Git",
-  },
-  {
     avatar: RE,
     name: "React",
   },
   {
     avatar: NEXT,
     name: "Next.js",
+  },
+
+  {
+    avatar: GIT,
+    name: "Git",
+  },
+  {
+    avatar: JAVASCRIPT,
+    name: "JavaScript",
+  },
+  {
+    avatar: HTML,
+    name: "HTML",
+  },
+  {
+    avatar: CSS,
+    name: "CSS ",
   },
   {
     avatar: IONIC,
@@ -59,12 +64,24 @@ const dataFronted = [
 
 const dataBackend = [
   {
-    avatar: LARAVEL,
-    name: "Laravel",
+    avatar: NEST,
+    name: "Nest JS",
+  },
+  {
+    avatar: SPRING,
+    name: "Spring Boot",
+  },
+  {
+    avatar: POSTEGRES,
+    name: "PostgreSQL",
   },
   {
     avatar: MYSQL,
-    name: "MySQL ",
+    name: "MySQL",
+  },
+  {
+    avatar: LARAVEL,
+    name: "Laravel",
   },
   {
     avatar: FIREBASE,
@@ -101,7 +118,7 @@ const Skillsdev = () => {
         className="container skillsdevs_container"
         modules={[Pagination]}
         spaceBetween={50}
-        slidesPerView={3}
+        slidesPerView={4}
         pagination={{ clickable: true }}
       >
         {dataBackend.map(({ avatar, name }, id) => {

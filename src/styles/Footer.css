@@ -1,69 +1,68 @@
 footer {
-    background: var(--color-primary);
-    padding: 1rem 0;
-    text-align: center;
-    font-size: 0.9rem;
-    margin-top: 7rem;
+  background: var(--color-primary);
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 2rem;
 }
 
 footer a {
-    color: var(--color-bg);
+  color: var(--color-bg);
 }
 
 .footer_logo {
-    font-size: 2rem;
-    font-weight: 500;
-    margin-bottom: 1rem;
-    display: inline-block;
+  font-size: 1rem;
+  font-weight: 100;
+
+  display: inline-block;
 }
 
 .permalinks {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    margin: 0 auto 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .footer_socials {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .footer_socials a {
-    background: var(--color-bg);
-    color: var(--color-white);
-    padding: 0.8rem;
-    border-radius: 0.7rem;
-    display: flex;
-    border: 1px slid transparent;
+  background: var(--color-bg);
+  color: var(--color-white);
+  padding: 5px;
+  border-radius: 0.7rem;
+  display: flex;
+  border: 1px slid transparent;
 }
 
 .footer_socials a:hover {
-    background-color: transparent;
-    color: var(--color-bg);
-    border-color: var(--color-bg);
+  background-color: transparent;
+  color: var(--color-bg);
+  border-color: var(--color-bg);
 }
 
 .footer_copyright {
-    margin-bottom: 0rem;
-    color: var(--color-bg);
+  margin-bottom: 0rem;
+  color: var(--color-bg);
 }
 
-    
 @media screen and (max-width: 600px) {
-    
-    .permalinks {
-        flex-direction: column;
-        gap: 1.5rem;
-    }
+  .permalinks {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
 
-    .footer_socials {
-        margin-bottom: 1rem;
-    }
-    
- }
+  .footer_socials {
+    margin-bottom: 1rem;
+  }
+}
 
-
+@media (min-width: 768px) { /* A partir de pantallas grandes */
+  .container {
+    grid-template-columns: 1fr 1fr; /* Dos columnas */
+  }
+}
