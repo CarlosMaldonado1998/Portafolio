@@ -11,7 +11,7 @@ const Contact = () => {
 
       <div className="container ">
         <div className="contact_options">
-          <article className="contact_option">
+          <article className="contact_option about_card">
             <MdOutlineMail className="contact_option-icon" />
             <h4>Email</h4>
             <h5>kardaniel1998@gmail.com</h5>
@@ -19,7 +19,7 @@ const Contact = () => {
               Enviar mensaje
             </a>
           </article>
-          <article className="contact_option">
+          <article className="contact_option about_card">
             <BsGithub className="contact_option-icon" />
             <h4>Github</h4>
             <h5>Carlos Maldonado</h5>
@@ -27,7 +27,7 @@ const Contact = () => {
               Ver perfil
             </a>
           </article>
-          <article className="contact_option">
+          <article className="contact_option about_card">
             <BsLinkedin className="contact_option-icon" />
             <h4>Linkedin</h4>
             <h5>Carlos Maldonado</h5>
@@ -38,7 +38,7 @@ const Contact = () => {
               Ver perfil
             </a>
           </article>
-          <article className="contact_option">
+          <article className="contact_option about_card">
             <BsWhatsapp className="contact_option-icon" />
             <h4>Whatsapp</h4>
             <h5>Quito, Ecuador</h5>

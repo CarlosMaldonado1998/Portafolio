@@ -1,5 +1,4 @@
 header {
-  height: 100vh;
   padding-top: 7rem;
   overflow: hidden;
 }
@@ -28,16 +27,7 @@ header {
   overflow: hidden;
 }
 
-@media screen and (max-width: 1024px) {
-  header {
-    height: 100vh;
-  }
-}
-
 @media screen and (max-width: 600px) {
-  header {
-    height: 100vh;
-  }
   .header_container {
     grid-template-columns: 1fr;
   }

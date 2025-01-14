@@ -37,8 +37,8 @@ h2 {
 }
 
 .thumb {
-  width: 13vmin;
-  height: 13vmin;
+  width: 20vmin;
+  height: 20vmin;
   float: left;
   margin-right: 1.25em;
   background: linear-gradient(
@@ -106,7 +106,7 @@ h3 {
   display: inline;
   margin: 0;
   left: 9vmin;
-  color: var(--yellow);
+  color: var(--color-primary-variant);
   border-radius: 0.25em;
   font-size: 1.35em;
   transform-origin: left bottom;

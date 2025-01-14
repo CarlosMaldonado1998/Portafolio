@@ -94,7 +94,7 @@ const Skillsdev = () => {
       <h2>Herramientas que manejo</h2>
       <h5>Frontend Development</h5>
       <Swiper
-        className="container skillsdevs_container"
+        className="container skillsdevs_container about_card"
         modules={[Pagination]}
         spaceBetween={50}
         slidesPerView={4}
@@ -115,7 +115,7 @@ const Skillsdev = () => {
       </Swiper>
       <h5>Backend Development</h5>
       <Swiper
-        className="container skillsdevs_container"
+        className="container skillsdevs_container about_card"
         modules={[Pagination]}
         spaceBetween={50}
         slidesPerView={4}

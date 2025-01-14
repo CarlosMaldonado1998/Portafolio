@@ -10,7 +10,6 @@ import "../styles/About.css";
 const About = () => {
   return (
     <section id="about">
-      <h5>conóceme</h5>
       <h2>Sobre mí</h2>
 
       <div className="container">
@@ -34,7 +33,7 @@ const About = () => {
             </article>
             <article className="about_card">
               <FaHeadphones />
-              <h5>Hobbie</h5>
+              <h5>Hobby</h5>
               <small>Disfrutar música</small>
             </article>
           </div>
