@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portafolio/static/css/main.d82d5d19.css",
+    "main.css": "/Portafolio/static/css/main.103ff9b6.css",
     "main.js": "/Portafolio/static/js/main.d8db4925.js",
     "static/js/787.ae0d8d37.chunk.js": "/Portafolio/static/js/787.ae0d8d37.chunk.js",
     "static/media/Iglesia.png": "/Portafolio/static/media/Iglesia.b93e85de60809045424b.png",
@@ -22,12 +22,12 @@
     "static/media/programacion.png": "/Portafolio/static/media/programacion.cae0c90fb0863a9e33cf.png",
     "static/media/laravel.png": "/Portafolio/static/media/laravel.c9caeace6751a09cb795.png",
     "index.html": "/Portafolio/index.html",
-    "main.d82d5d19.css.map": "/Portafolio/static/css/main.d82d5d19.css.map",
+    "main.103ff9b6.css.map": "/Portafolio/static/css/main.103ff9b6.css.map",
     "main.d8db4925.js.map": "/Portafolio/static/js/main.d8db4925.js.map",
     "787.ae0d8d37.chunk.js.map": "/Portafolio/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d82d5d19.css",
+    "static/css/main.103ff9b6.css",
     "static/js/main.d8db4925.js"
   ]
 }
